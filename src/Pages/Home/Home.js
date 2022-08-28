@@ -5,6 +5,7 @@ import { useState } from "react";
 // import { unstable_HistoryRouter } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
+import Quiz from "../../Assets/quiz.svg";
 const Home = ({name,setName,fetchQuestions}) => {
 
      const [category,setCategory]= useState("");
@@ -88,7 +89,7 @@ const Home = ({name,setName,fetchQuestions}) => {
        </div>
 
        </div>
-       <img src="/quiz.svg" className="banner" alt="quiz img"></img>
+       <img src={Quiz} className="banner" alt="quiz img"></img>
       </div>
     );
   };
