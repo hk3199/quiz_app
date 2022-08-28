@@ -107,7 +107,7 @@ const Question = ({
                                 </Button>
                                 <Button
                                 variant="contained"
-                                color="secondary"
+                                color="primary"
                                 size="large"
                                 style={{ width: 185 }}
                                 onClick={ handleNext}
